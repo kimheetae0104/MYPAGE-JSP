@@ -7,18 +7,10 @@
 <title>Insert title here</title>
 </head>
 <body>
-	<h2>wishlist</h2>
-	찜하신 목록입니다.
-	<div>
-		<table border="1">
-			<tr>
-			<td>상품<%=getitems %></td>
-			</tr>
-			<tr>
-			<td>상품<%=getitems %></td>
-			</tr>
-		</table>
-	</div>
 	
+	<h2>아이디와 비밀번호를 확인하세요</h2>
+	
+	<a href="login.jsp">다시 로그인하기</a>
+
 </body>
 </html>

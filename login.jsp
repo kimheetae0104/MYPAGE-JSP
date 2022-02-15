@@ -7,18 +7,12 @@
 <title>Insert title here</title>
 </head>
 <body>
-	<h2>wishlist</h2>
-	찜하신 목록입니다.
-	<div>
-		<table border="1">
-			<tr>
-			<td>상품<%=getitems %></td>
-			</tr>
-			<tr>
-			<td>상품<%=getitems %></td>
-			</tr>
-		</table>
-	</div>
-	
+
+	<form action="login_ok.jsp" method="post">
+		아이디:<input type="text" name="id"><br/>
+		비밀번호:<input type="password" name="pw"><br/>
+		<input type="submit" value="로그인"><br/>
+	</form>
+
 </body>
 </html>
